@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QSP master='exact' sample='rand' n='200'>
+  <simulation>
+    <start>0</start>
+    <step>1</step>
+    <n_step>360</n_step>
+    <tol_rel>1e-09</tol_rel>
+    <tol_abs>1e-12</tol_abs>
+  </simulation>
+  <init_value>
+    <Compartment>
+      <Cent>6</Cent>
+      <Peri>62.24</Peri>
+      <Tum>1</Tum>
+      <LN>0.021</LN>
+      <mAPC_Endo>4e-16</mAPC_Endo>
+      <mAPC_Surf>262.4</mAPC_Surf>
+    </Compartment>
+    <Species>
+      <Cent_Nivo>0</Cent_Nivo>
+      <Cent_nT_CD8>3.03e+09</Cent_nT_CD8>
+      <Cent_nT_CD4>5.16e+09</Cent_nT_CD4>
+      <Cent_Treg>138070411.924207</Cent_Treg>
+      <Cent_Teff_1_0>3309196327.16097</Cent_Teff_1_0>
+      <Peri_Nivo>0</Peri_Nivo>
+      <Peri_Treg>231731912760.964</Peri_Treg>
+      <Peri_Teff_1_0>2036908293531.7</Peri_Teff_1_0>
+      <Tum_Nivo>0</Tum_Nivo>
+      <Tum_C1>7810902573.53141</Tum_C1>
+      <Tum_Cp>9.20269953928367E-10</Tum_Cp>
+      <Tum_DAMP>1e-12</Tum_DAMP>
+      <Tum_APC>364495.824904656</Tum_APC>
+      <Tum_mAPC>69090.8296696924</Tum_mAPC>
+      <Tum_Ckine_Mat>1.02212779758348</Tum_Ckine_Mat>
+      <Tum_Treg>9303338.92878766</Tum_Treg>
+      <Tum_Teff_PD1>60000</Tum_Teff_PD1>
+      <Tum_Teff_PD1_syn>132.001381580438</Tum_Teff_PD1_syn>
+      <Tum_Teff_PD1_Nivo>0</Tum_Teff_PD1_Nivo>
+      <Tum_Teff_PD1_Nivo_syn>0</Tum_Teff_PD1_Nivo_syn>
+      <Tum_Teff_PD1_Nivo_PD1_syn>0</Tum_Teff_PD1_Nivo_PD1_syn>
+      <Tum_C1_PDL1>1.6e+06</Tum_C1_PDL1>
+      <Tum_C1_PDL1_syn>54538.0312805978</Tum_C1_PDL1_syn>
+      <Tum_C1_PDL2>104000</Tum_C1_PDL2>
+      <Tum_C1_PDL2_syn>2392.31868502533</Tum_C1_PDL2_syn>
+      <Tum_C1_PDL1_Teff_PD1>12868.3960348135</Tum_C1_PDL1_Teff_PD1>
+      <Tum_C1_PDL2_Teff_PD1>1989.09909047644</Tum_C1_PDL2_Teff_PD1>
+      <Tum_D1_0>3.38659343045639E-10</Tum_D1_0>
+      <Tum_Teff_1_0>41145836.0509415</Tum_Teff_1_0>
+      <Tum_Teff_exhausted>151819145.498917</Tum_Teff_exhausted>
+      <LN_Nivo>0</LN_Nivo>
+      <LN_APC>24511441.6863283</LN_APC>
+      <LN_mAPC>13807359.8133157</LN_mAPC>
+      <LN_nT_CD8>3941346039.0014</LN_nT_CD8>
+      <LN_nT_CD4>6711444332.74436</LN_nT_CD4>
+      <LN_aTreg_CD4>13869430.9439488</LN_aTreg_CD4>
+      <LN_Treg>107544935.665241</LN_Treg>
+      <LN_IL2>239.070484008103</LN_IL2>
+      <LN_TCR_p1_0_M>0</LN_TCR_p1_0_M>
+      <LN_Cp>3.31277336535657E-09</LN_Cp>
+      <LN_D1_0>1.21910059845122E-09</LN_D1_0>
+      <LN_aT_1_0>5977406.24410672</LN_aT_1_0>
+      <LN_Teff_1_0>1019375204.3689</LN_Teff_1_0>
+      <mAPC_Endo_Cp>4.2723471935914E-23</mAPC_Endo_Cp>
+      <mAPC_Endo_cpt>4.10178317402744E-24</mAPC_Endo_cpt>
+      <mAPC_Endo_M1>9.99893E-20</mAPC_Endo_M1>
+      <mAPC_Endo_cpt_M1>5.09570487479651E-24</mAPC_Endo_cpt_M1>
+      <mAPC_Endo_D1_0>1.57222376724163E-23</mAPC_Endo_D1_0>
+      <mAPC_Endo_p1_0>1.50942620868053E-24</mAPC_Endo_p1_0>
+      <mAPC_Endo_p1_0_M1>1.87536852908468E-24</mAPC_Endo_p1_0_M1>
+      <mAPC_Surf_cpt_M1>1.5963013935245E-20</mAPC_Surf_cpt_M1>
+      <mAPC_Surf_M1>1.27879964453672E-23</mAPC_Surf_M1>
+      <mAPC_Surf_cpt_M>9612.92699180454</mAPC_Surf_cpt_M>
+      <mAPC_Surf_p1_0_M1>8.02693118698097E-21</mAPC_Surf_p1_0_M1>
+      <mAPC_Surf_p1_0_M>4833.81796079994</mAPC_Surf_p1_0_M>
+    </Species>
+    <Parameter>
+      <AvogadroN>6.022e+23</AvogadroN>
+      <cell>1</cell>
+      <pat_weight>80</pat_weight>
+      <pat_density>1.015</pat_density>
+      <pat_volume>78.8177</pat_volume>
+      <f_w_peri>0.778</f_w_peri>
+      <vol_LN_single>1</vol_LN_single>
+      <nLN scale='log2' dist='normal'>[21, 1]</nLN>
+      <vol_cent>6</vol_cent>
+      <vol_peri>62.24</vol_peri>
+      <vol_tum scale='log2' dist='normal'>[0.07, 1]</vol_tum>
+      <vol_LN>0.021</vol_LN>
+      <vol_tum_max scale='log2' dist='normal'>[1, 1]</vol_tum_max>
+      <vol_tum_app>0.0700319236821671</vol_tum_app>
+      <D_tum_app>51.1405990824089</D_tum_app>
+      <D_tum_app_0>51.1328271774544</D_tum_app_0>
+      <D_tum_app_percent>100.015199443065</D_tum_app_percent>
+      <f_vol_cent>0.5434</f_vol_cent>
+      <f_vol_peri>0.0624</f_vol_peri>
+      <f_vol_tum>0.718</f_vol_tum>
+      <f_vol_LN>0.1</f_vol_LN>
+      <f_vol_BV scale='log2' dist='normal'>[0.0067, 1]</f_vol_BV>
+      <D_C>16.9</D_C>
+      <D_T>6.94</D_T>
+      <D_APC>9.14</D_APC>
+      <vol_C>2.52723674558333E-12</vol_C>
+      <vol_T>1.75010548139333E-13</vol_T>
+      <vol_APC>3.99783072012667E-13</vol_APC>
+      <A_C>897.243815</A_C>
+      <A_T>151.3059494</A_T>
+      <A_APC>262.4396534</A_APC>
+      <A_syn scale='log2' dist='normal'>[37.8, .25]</A_syn>
+      <d_syn>3e-09</d_syn>
+      <C1_min>100</C1_min>
+      <C_presence>1</C_presence>
+      <k_C_growth scale='log2' dist='normal'>[0.01, 1]</k_C_growth>
+      <K_C_max>111584322479.02</K_C_max>
+      <k_C_death scale='log2' dist='normal'>[0.0001, 1]</k_C_death>
+      <k_C_death_by_T scale='log2' dist='normal'>[8, 1]</k_C_death_by_T>
+      <Therapy>0</Therapy>
+      <k_C_death_by_Therapy>0.1</k_C_death_by_Therapy>
+      <D_per_C>6.7e-19</D_per_C>
+      <Cp_per_C>6.7e-19</Cp_per_C>
+      <DAMP_per_C>6.7e-17</DAMP_per_C>
+      <k_deg_D>2</k_deg_D>
+      <t_resection stage='pre'>{26, 41, 25, 17, 30, 28, 28, 35, 33, 31, 35, 40}</t_resection>
+      <C1_resection>100000</C1_resection>
+      <Teff_resection>1000</Teff_resection>
+      <Treg_resection>10</Treg_resection>
+      <perm_CP_Ab>1.5e-08</perm_CP_Ab>
+      <perm_CT_Ab>3e-07</perm_CT_Ab>
+      <perm_CL_Ab>1.5e-08</perm_CL_Ab>
+      <S_CP>11577</S_CP>
+      <S_CT>28400</S_CT>
+      <S_CL>11577</S_CL>
+      <Q_TL>0.0015</Q_TL>
+      <Kd_Nivo scale='log2' dist='normal'>[0.26, .25]</Kd_Nivo>
+      <k_on_Nivo>1.3e+06</k_on_Nivo>
+      <k_off_Nivo>0.000338</k_off_Nivo>
+      <MW_Nivo>1.436e+08</MW_Nivo>
+      <dose_mg_Nivo stage='post'>{0,0,3,3}</dose_mg_Nivo>
+      <dose_Nivo>0</dose_Nivo>
+      <Ki>10</Ki>
+      <k_on1_Nivo>2.6e+06</k_on1_Nivo>
+      <k_off1_Nivo>0.000338</k_off1_Nivo>
+      <k_on2_Nivo>1.90366071025874</k_on2_Nivo>
+      <k_off2_Nivo>0.000676</k_off2_Nivo>
+      <t_init_Nivo>1e-06</t_init_Nivo>
+      <t_inter_Nivo>14</t_inter_Nivo>
+      <n_dose_Nivo stage='post'>{26, 26, 26, 2}</n_dose_Nivo>
+      <t_infus_Nivo>1</t_infus_Nivo>
+      <t_off_Nivo>500</t_off_Nivo>
+      <t_on_Nivo>500</t_on_Nivo>
+      <count_dose_Nivo>0</count_dose_Nivo>
+      <k_infus_Nivo>0</k_infus_Nivo>
+      <cl_Nivo scale='log2' dist='normal'>[7.1813e-07, .025]</cl_Nivo>
+      <f_vol_peri_Nivo>0.058847</f_vol_peri_Nivo>
+      <P_ratio_Nivo>1</P_ratio_Nivo>
+      <f_vol_cent_Nivo>0.77378</f_vol_cent_Nivo>
+      <Teff_PD1_tot scale='log2' dist='normal'>[60000, 1]</Teff_PD1_tot>
+      <C1_PDL1_tot scale='log2' dist='normal'>[1.6e+06, 1]</C1_PDL1_tot>
+      <C1_PDL2_tot scale='log2' dist='normal'>[104000, 1]</C1_PDL2_tot>
+      <Kd_PD1_PDL1 scale='log2' dist='normal'>[14.8, .25]</Kd_PD1_PDL1>
+      <k_on_PD1_PDL1>0.097</k_on_PD1_PDL1>
+      <k_off_PD1_PDL1>1.4356</k_off_PD1_PDL1>
+      <K_C1_PDLX_Teff_PD1 scale='log2' dist='normal'>[250, .75]</K_C1_PDLX_Teff_PD1>
+      <Kd_PD1_PDL2 scale='log2' dist='normal'>[4.2, .25]</Kd_PD1_PDL2>
+      <k_on_PD1_PDL2>0.13</k_on_PD1_PDL2>
+      <k_off_PD1_PDL2>0.546</k_off_PD1_PDL2>
+      <n_PD1_PDLX scale='log2' dist='normal'>[2, .25]</n_PD1_PDLX>
+      <V_E>4e-16</V_E>
+      <V_intake>4e-14</V_intake>
+      <p_per_P>1</p_per_P>
+      <k_int_Cp>14.4</k_int_Cp>
+      <k_deg_Cp>17.28</k_deg_Cp>
+      <k_deg_cpt>144</k_deg_cpt>
+      <k_deg_cpt_M>0.1663</k_deg_cpt_M>
+      <k_int_Dend>14.4</k_int_Dend>
+      <k_deg_Dend>17.28</k_deg_Dend>
+      <k_deg_p>144</k_deg_p>
+      <k_deg_p_M>0.1663</k_deg_p_M>
+      <M1_0>1e-19</M1_0>
+      <k_deg_M>1.663</k_deg_M>
+      <k_int_M>14.4</k_int_M>
+      <k_ext_p_M>28.8</k_ext_p_M>
+      <n_clone_Treg scale='log2' dist='normal'>[250, 1]</n_clone_Treg>
+      <n_clone_p1_0 stage='pre'>{256,99,310,68,75,105,190,23,5,26,366,85}</n_clone_p1_0>
+      <Kd_p1_0_M1 stage='pre'>{52.8, 29.4, 29.2, 17.4, 84.9, 30.4, 25.0, 41.4, 733, 12.4, 88.3, 59.4}</Kd_p1_0_M1>
+      <k_on_p1_0_M1>144000</k_on_p1_0_M1>
+      <k_off_p1_0_M1>0.00576</k_off_p1_0_M1>
+      <Kd_cpt_M1 scale='log2' dist='normal'>[60, 1]</Kd_cpt_M1>
+      <k_on_cpt_M1>144000</k_on_cpt_M1>
+      <k_off_cpt_M1>0.00864</k_off_cpt_M1>
+      <k_ext_cpt_M>28.8</k_ext_cpt_M>
+      <APC0_Tum scale='log2' dist='normal'>[400000, 1]</APC0_Tum>
+      <APC0_LN scale='log2' dist='normal'>[1.2e+06, 1]</APC0_LN>
+      <k_APC_death>0.01</k_APC_death>
+      <k_mAPC_death>0.02</k_mAPC_death>
+      <Ckine_Mat0>1e-09</Ckine_Mat0>
+      <k_Ckine_Mat_deg>2</k_Ckine_Mat_deg>
+      <K_Ckine_Mat_Cp>1e-19</K_Ckine_Mat_Cp>
+      <k_APC_mat>1.5</k_APC_mat>
+      <K_APC_mat>1e-09</K_APC_mat>
+      <k_mAPC_mig>4</k_mAPC_mig>
+      <nT_CD8_dens scale='log2' dist='normal'>[505000, .5]</nT_CD8_dens>
+      <nT_CD4_dens scale='log2' dist='normal'>[860000, .5]</nT_CD4_dens>
+      <k_nT_entry scale='log2' dist='normal'>[0.07, 1]</k_nT_entry>
+      <k_nT_exit>1.13</k_nT_exit>
+      <nT_CD8_diver>1.11e+06</nT_CD8_diver>
+      <nT_CD4_diver>1.16e+06</nT_CD4_diver>
+      <k_nTCD8_mAPC>10</k_nTCD8_mAPC>
+      <n_sites_mAPC>10</n_sites_mAPC>
+      <K_p_M scale='log2' dist='normal'>[400, 1]</K_p_M>
+      <k_aT_prolif>1</k_aT_prolif>
+      <k_Teff_death>0.01</k_Teff_death>
+      <k_Teff_death_peri>0.01</k_Teff_death_peri>
+      <k_Teff_death_by_C scale='log2' dist='normal'>[0.05, 1]</k_Teff_death_by_C>
+      <k_Teff_egress>1</k_Teff_egress>
+      <k_Teff_transmig>1e-12</k_Teff_transmig>
+      <k_Teff_exit>1</k_Teff_exit>
+      <S_adhesion_tot scale='log2' dist='normal'>[1e+08, 1]</S_adhesion_tot>
+      <S_adhesion_peri_tot>1e+08</S_adhesion_peri_tot>
+      <S_adhesion>7e+09</S_adhesion>
+      <S_adhesion_peri>6.224e+12</S_adhesion_peri>
+      <T_all_Cent>6339196327.16097</T_all_Cent>
+      <T_all_Tum>50449174.9797291</T_all_Tum>
+      <clonality>0.302724151328323</clonality>
+      <n_aT_prolif_TCR0>2</n_aT_prolif_TCR0>
+      <n_aT_prolif_IL20>11</n_aT_prolif_IL20>
+      <n_aT_prolif_Coestim0>3</n_aT_prolif_Coestim0>
+      <K_IL2_Teff>0.32</K_IL2_Teff>
+      <k_IL2_rel>3e-05</k_IL2_rel>
+      <k_IL2_deg>0.2</k_IL2_deg>
+      <k_IL2_consump>6e-06</k_IL2_consump>
+      <n_aT_prolif_TCR>2</n_aT_prolif_TCR>
+      <n_aT_prolif_IL2>10.9995278279251</n_aT_prolif_IL2>
+      <n_aT_prolif_Coestim>3</n_aT_prolif_Coestim>
+      <n_aT_prolif>15.9995278279251</n_aT_prolif>
+      <k_nTCD4_APC>10</k_nTCD4_APC>
+      <n_sites_APC>10</n_sites_APC>
+      <K_Cp>10</K_Cp>
+      <k_aTreg_prolif>1</k_aTreg_prolif>
+      <K_IL2_Treg>0.0032</K_IL2_Treg>
+      <nTreg_basal>2.5e+08</nTreg_basal>
+      <k_Treg_death>0.01</k_Treg_death>
+      <k_Treg_egress>24</k_Treg_egress>
+      <k_Treg_transmig>1e-12</k_Treg_transmig>
+      <k_Treg_exit>0.00025</k_Treg_exit>
+      <k_Teff_inhibBy_Treg scale='log2' dist='normal'>[1, 1]</k_Teff_inhibBy_Treg>
+      <K_Treg_inhib>1e-09</K_Treg_inhib>
+      <n_Treg_prolif_IL2>10.9999852763284</n_Treg_prolif_IL2>
+      <Teff2TregRatio>4.42269558981909</Teff2TregRatio>
+    </Parameter>
+  </init_value>
+</QSP>

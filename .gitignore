@@ -1,0 +1,7 @@
+*.o
+*.d
+*.filters
+*.lastbuildstate
+*.tlog
+*.vcxproj
+SPQSP_IO/SP_QSP_shared/ABM_Base/ReadMe.txt

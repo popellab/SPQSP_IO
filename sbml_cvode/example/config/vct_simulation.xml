@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sbml_converter_config>
+    <file_hash>1be41abdf299cba8a514f031f1b6d76b</file_hash>
+    <sim_t_start>0.0</sim_t_start>
+    <sim_t_step>1.0</sim_t_step>
+    <sim_n_step>360</sim_n_step>
+    <tol_rel>1e-09</tol_rel>
+    <tol_abs>1e-12</tol_abs>
+    <unit_convert>1</unit_convert>
+    <extra_var>
+        <use_tune_var>1</use_tune_var>
+        <extra_var_list>
+            <mw7550eba6_90bb_440a_9f47_36b1db39e96a/>
+            <mw0a05dc7c_e6fa_492a_b177_c7cab8583a7b/>
+        </extra_var_list>
+    </extra_var>
+    <hybrid>
+        <use_hybrid_model>0</use_hybrid_model>
+        <hybrid_abm_weight>0.0</hybrid_abm_weight>
+        <hybrid_item_list/>
+    </hybrid>
+</sbml_converter_config>
